@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+.inputText{
+    border-radius: 5px;
+    border: none;
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 300px;
+    padding: 8px;
+}
+a{
+    text-decoration: none;
+    color: rgb(248, 103, 50);
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn{
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: rgb(151, 235, 235);
+    width: 100px;
+}
+.liststyle{
+    width:400px ;
+    background-color: paleturquoise;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+}
+.todoList{
+    margin-left: 350px;
+}
+.todoList .items .liststyle input[type="checkbox"]:focus + label{
+    text-decoration: line-through;
+}
+.deletbtn{
+    margin-left: 50px;
+}
+.deletbtn{
+    display: none;
+}
+.btnstyle{
+    margin-left: 250px;
+    
+}
