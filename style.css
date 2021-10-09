@@ -23,11 +23,13 @@ a{
     width: 100px;
 }
 .liststyle{
-    width:400px ;
+    width:390px ;
     background-color: paleturquoise;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 18px;
     list-style: none;
+    display: flex;
+    font-weight:bold ;
 }
 .todoList{
     margin-left: 350px;
@@ -35,13 +37,8 @@ a{
 .todoList .items .liststyle input[type="checkbox"]:focus + label{
     text-decoration: line-through;
 }
-.deletbtn{
-    margin-left: 50px;
-}
-.deletbtn{
-    display: none;
-}
 .btnstyle{
-    margin-left: 250px;
-    
+    position: absolute;
+    left: 750px;
+    padding: 5px;
 }
